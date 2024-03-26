@@ -1,63 +1,91 @@
-.Weather{
-    border: 1px solid #dadde1;
-    font-family: arial, sans-serif;
-    color: #878787;
-    padding: 16px;
-    border-radius: 4px;
-    
+.title {
+  border: 1px solid #dadde1;
+  max-width: 600px;
+  margin: 30px auto;
+  background: linear-gradient(
+    109.6deg,
+    rgb(87, 232, 107, 0.1) 100.2%,
+    rgb(255, 230, 109, 0.1) 11.2%
+  );
+  box-shadow: 6px 9px 13px #968dab;
+  border-radius: 6px;
 }
 
-.Weather h1{
-    font-size: 24px;
-    display: block;
-    font-weight: 100;
-    line-height: 29px;
-    text-align: left;
-    margin: 20px 0 0 0;
+.Weather {
+  border: 1px solid #dadde1;
+  font-family: arial, sans-serif;
+  color: #878787;
+  padding: 16px;
+  border-radius: 6px;
+  max-width: 600px;
+  margin: 30px auto;
+  background: linear-gradient(
+    109.6deg,
+    rgb(255, 230, 109, 0.3) 11.2%,
+    rgb(87, 232, 107, 0.3) 100.2%
+  );
+  box-shadow: 6px 9px 13px #968dab;
 }
 
-.Weather ul{
-    margin: 0;
-    padding: 0;
+.Weather h1 {
+  font-size: 24px;
+  display: block;
+  font-weight: 100;
+  line-height: 29px;
+  text-align: left;
+  margin: 20px 0 0 0;
 }
 
-.Weather li{
-    font-size: 16px;
-    font-weight: 100;
-    line-height: 19px;
-    list-style: none;
+.Weather ul {
+  margin: 0;
+  padding: 0;
 }
 
-.Weather img{
-    height: 64px;
-    width: 64px;
-    display: inline-block;
-    margin-right: 10px;
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
 }
 
-.Weather canvas{
-    display: inline-block;
-    margin-right: 5px;
-    margin-top: 5px;
+.Weather img {
+  height: 64px;
+  width: 64px;
+  display: inline-block;
+  margin-right: 10px;
 }
 
-.Weather .temperature{
-    font-weight: bold;
-    color:rgb(33, 33, 33);
-    font-size: 64px;
-    font-weight: 400;
-    line-height: 64px;
+.Weather canvas {
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 5px;
 }
 
-.Weather .unit{
-    color:rgb(33, 33, 33);
-    font-size: 16px;
-    font-weight: 400;
-    position:relative;
-    top: -34px;
-    line-height: 1;
+.Weather .temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px;
+}
+
+.Weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: -34px;
+  line-height: 1;
 }
 
 .Weather a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.WeatherForecastDay:hover {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
 }
