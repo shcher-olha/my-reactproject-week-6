@@ -47,7 +47,13 @@
   font-weight: 100;
   line-height: 19px;
   list-style: none;
+  color: rgb(85, 84, 84);
 }
+
+.Weather li strong {
+  color: red;
+}
+
 
 .Weather img {
   height: 64px;
@@ -81,9 +87,8 @@
 .WeatherForecast-temperature {
   color: red;
 }
-.Weather li strong {
-  color: red;
-}
+
+
 .Weather a {
   text-decoration: none;
 }
